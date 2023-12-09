@@ -157,3 +157,11 @@ Other useful array methods, such as Min, Max, and Sum, can be found in the Syste
 ```cs
 using System.Linq;
 ```
+## Methods
+### Method Overloading
+With method overloading, multiple methods can have the same name with different parameters
+```cs
+int MyMethod(int x)
+float MyMethod(float x)
+double MyMethod(double x, double y)
+```
