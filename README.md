@@ -111,3 +111,49 @@ foreach (string car in cars)
   Console.WriteLine(i);
 }
 ```
+
+## Arrays
+```cs
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+int[] myNum = {10, 20, 30, 40};
+```
+Array length:
+```cs
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Console.WriteLine(cars.Length);
+```
+### Loop through array
+```cs
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+for (int i = 0; i < cars.Length; i++) 
+{
+  Console.WriteLine(cars[i]);
+}
+```
+Or we can also do this using foreach loop explained above.
+
+### Sort Array
+String array
+```cs
+// Sort a string
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+Array.Sort(cars);
+foreach (string i in cars)
+{
+  Console.WriteLine(i);
+}
+```
+int array
+```cs
+// Sort an int
+int[] myNumbers = {5, 1, 8, 9};
+Array.Sort(myNumbers);
+foreach (int i in myNumbers)
+{
+  Console.WriteLine(i);
+}
+```
+Other useful array methods, such as Min, Max, and Sum, can be found in the System.Linq namespace.
+```cs
+using System.Linq;
+```
