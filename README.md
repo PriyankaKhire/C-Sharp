@@ -165,3 +165,35 @@ int MyMethod(int x)
 float MyMethod(float x)
 double MyMethod(double x, double y)
 ```
+
+# Object Oriented Programming Principles
+## Namespace
+Namespaces are used to organize the classes. It helps to control the scope of methods and classes in larger .Net programming projects. In simpler words you can say that it provides a way to keep one set of names(like class names) different from other sets of names. The biggest advantage of using namespace is that the class names which are declared in one namespace will not clash with the same class names declared in another namespace.
+
+```cs
+namespace name_of_namespace {
+
+// Namespace (Nested Namespaces)
+// Classes
+// Interfaces
+// Structures
+// Delegates
+
+}
+```
+## Class
+Thik about a house. A class is the blue print for this house. An object is the built house itself.
+```cs
+public class className
+{
+
+    // field variable
+    public int a, b;
+
+      // member function or method
+      public void functionName()
+      {
+          Console.WriteLine(“Class & Objects in C#”);
+      }
+}
+```
